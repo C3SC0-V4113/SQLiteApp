@@ -4,7 +4,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.udb.sqliteapp.MainActivity">
+    tools:context="edu.udb.sqliteapp.MainActivity"
+    android:padding="15dp">
 
     <EditText
         android:id="@+id/et1"
@@ -91,5 +92,13 @@
         android:layout_below="@+id/button4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="PERSONAS"
+        android:id="@+id/salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="salir" />
 
 </RelativeLayout>
